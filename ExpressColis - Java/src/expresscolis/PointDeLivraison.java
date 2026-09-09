@@ -4,10 +4,29 @@
  */
 package expresscolis;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author sohan
  */
 public class PointDeLivraison {
+    private String nom;
+    private Adresse adresse;
+    private ArrayList<Colis> colisdeposes;
     
+    public PointDeLivraison (String nom, Adresse adresse) {
+        this.nom = nom;
+        this.adresse = adresse;
+        this.colisdeposes = new ArrayList<>();
+    }
+    
+    
+    public void AjouterColis() {
+        
+    }
+    
+    public float calculRentabiliteTotale() {
+        
+    }
 }

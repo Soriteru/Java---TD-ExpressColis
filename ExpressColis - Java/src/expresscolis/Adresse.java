@@ -15,7 +15,10 @@ public class Adresse {
     private String pays;
     
     public Adresse (String voie, String codepostal, String ville, String pays) {
-        
+        this.voie = voie;
+        this.codepostal = codepostal;
+        this.ville = ville;
+        this.pays = pays;
     }
     
     public boolean estEnFrance() {
